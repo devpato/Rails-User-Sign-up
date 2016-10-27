@@ -163,7 +163,7 @@ Devise.setup do |config|
   config.mailer_sender = '"JOBERSITY"<wearetamo@gmail.com>'
   #https://www.google.com/settings/u/0/security/lesssecureapps
 
-
+config.secret_key = '65a1fc027c0a2d74eec8e4b5ec5c7fa0135dae56ca366021516fa96e8db31e34d46fc823183ebc3fe62d784a4840b8d01de656171f886526f7a1f9ba36cb621c'
   # Configure the class responsible to send e-mails.
   #config.mailer = "Devise::Mailer"
 
